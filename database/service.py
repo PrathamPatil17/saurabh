@@ -160,7 +160,7 @@ class DatabaseService:
             return [{
                 "message": "PostgreSQL not available",
                 "fallback_mode": True,
-                "note": "Install psycopg2-binary and configure DATABASE_URL to enable PostgreSQL"
+                "note": "Install psycopg and configure DATABASE_URL to enable PostgreSQL"
             }]
         
         try:
