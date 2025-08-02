@@ -38,7 +38,7 @@ except ImportError:
     print('❌ OpenAI not installed')
 
 try:
-    import psycopg2
+    import psycopg
     print('✅ PostgreSQL driver installed')
 except ImportError:
     print('❌ PostgreSQL driver not installed')
